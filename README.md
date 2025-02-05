@@ -42,21 +42,26 @@ Output:
 
 The script will search for HR professionals working at the entered company on LinkedIn and scrape their basic profile information (name, job title, about).
 The data will be saved to an Excel file (hr_profiles.xlsx).
+
 Features
 Search by Company: Scrape profiles of HR professionals working at a specific company.
 Profile Details: Extract names, titles, and about sections.
 Export to Excel: Saves the scraped data in an Excel file (hr_profiles.xlsx).
+
 Troubleshooting
 Redirects: If LinkedIn redirects you, make sure your li_at cookie is up to date.
 Blocked Requests: LinkedIn may block repeated scraping attempts. If this happens, consider using a proxy service or rotating your IP.
 Rate Limiting: A 2-second delay is added between profile fetches to avoid rate limiting.
+
 Notes
 This scraper is intended for educational purposes. Please use LinkedIn's data in accordance with their Terms of Service.
 The script uses a basic scraping approach and may be blocked by LinkedIn's anti-scraping measures.
+
 Future Improvements
 Support for handling paginated results in case there are more than 10 profiles.
 Adding proxy rotation to avoid IP blocking.
 Integration with LinkedIn’s official API (if API access is granted).
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details. """
 
@@ -157,5 +162,4 @@ Edit
 - Save this script in your project folder as `linkedin_hr_scraper.py` and make sure the `README.md` file is also in your project folder or included in the comments as above.
 - When you run the script, it will function as described in the instructions.
 
-Let me know if you need more assistance!
 
